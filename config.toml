@@ -25,7 +25,7 @@ theme = 'hello-friend-ng'
   
   
   [[params.projects]]
-    name = "Observable"
+    name = "observable"
     desc = "A visual server profiler for Minecraft 1.16 - 1.18"
     image = "observable.png"
     url = "https://www.curseforge.com/minecraft/mc-mods/observable"
