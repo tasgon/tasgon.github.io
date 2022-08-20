@@ -1,0 +1,31 @@
+{{ define "body" }}
+    <body class="{{ if .Site.Params.backgroundImage }} background-image" style="background-image: url('{{ .Site.Params.backgroundImage }}');" {{ else }}"{{ end }}>
+{{ end }}
+
+{{ define "main" }}
+    <main aria-role="main">
+        <div style="padding-bottom: 8vh;">
+            {{ if .Site.Params.Portrait.Path }}
+               <img src="{{ .Site.Params.Portrait.Path }}" class="circle" alt="{{ .Site.Params.Portrait.Alt }}" style="max-width:{{ .Site.Params.Portrait.MaxWidth }}" />
+            {{ end }}
+
+            <h1>{{ .Site.Params.tagline }}</h1>
+
+            {{ partial "subtitle.html" . }}
+
+            {{- with .Site.Params.social }}
+                <div>
+                    {{ partial "social-icons.html" . }}
+                </div>
+            {{- end }}
+        </div>
+        <div style="padding-top: 8vh; padding: 0 1em;">
+            <h3 style="opacity: 50%;">things i've made:</h3>
+            {{- with .Site.Params.projects}}
+                <div style="text-align: left;">
+                    {{ partial "projects.html" . }}
+                </div>
+            {{- end }}
+        </div>
+    </main>
+{{ end }}

@@ -1,0 +1,15 @@
+{{ $style := resources.Get "scss/projects.scss" | resources.ToCSS | resources.Minify }}
+<link rel="stylesheet" href="{{ $style.Permalink }}" />
+<table style="border-spacing: 0 0.3em;">
+{{ range . -}}
+    <tr>
+        <td style="vertical-align: top;">
+            <a href="{{ .url }}" class="pl" target="_blank" rel="noopener">
+                <span style="white-space: pre;">{{ .name }}</span>
+            </a>
+        </td>
+        <td style="padding: 0 0.5em; vertical-align: top;">&mdash;</td>
+        <td>{{ .desc }}</td>
+    </tr>
+{{- end -}}
+</table>

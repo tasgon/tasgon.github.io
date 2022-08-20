@@ -1,0 +1,53 @@
+baseURL = 'http://localhost'
+languageCode = 'en-us'
+title = 'a website for things'
+theme = 'hello-friend-ng'
+
+[params]
+  tagline = "hi. i make things."
+
+  [params.logo]
+    logoMark = " "
+    logoText = "home"
+    logoCursorDisabled = true
+
+  [[params.social]]
+    name = "github"
+    url = "https://github.com/tasgon"
+  
+  [[params.social]]
+    name = "gitlab"
+    url = "https://gitlab.com/tasgon"
+
+  [[params.social]]
+    name = "email"
+    url  = "mailto:tasgon_@outlook.com"
+  
+  
+  [[params.projects]]
+    name = "Observable"
+    desc = "A visual server profiler for Minecraft 1.16 - 1.18"
+    image = "observable.png"
+    url = "https://www.curseforge.com/minecraft/mc-mods/observable"
+  
+  [[params.projects]]
+    name = "bevy_iced"
+    desc = "Iced integration for Bevy"
+    url = "https://crates.io/crates/bevy_iced"
+  
+  [[params.projects]]
+    name = "acidalia"
+    desc = "A toy rendering & input framework"
+    url = "https://crates.io/crates/acidalia"
+
+  [[params.projects]]
+    name = "wine-osu"
+    desc = "A low-latency audio patchset for wine (based off ThePooN)"
+    url = "https://gitlab.com/tasgon/wine-osu"
+
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name       = "about"
+    url        = "about/"
+  
