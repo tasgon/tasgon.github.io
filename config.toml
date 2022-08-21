@@ -1,4 +1,4 @@
-baseURL = 'https://tasgon.github.io'
+baseURL = 'https://tas.sh'
 languageCode = 'en-us'
 title = 'a website for things'
 theme = 'hello-friend-ng'
