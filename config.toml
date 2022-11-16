@@ -6,6 +6,8 @@ theme = 'hello-friend-ng'
 [params]
   tagline = "hi. i make things."
 
+  description = "This website is a record of me and what I've made."
+
   [params.logo]
     logoMark = " "
     logoText = "home"
@@ -26,9 +28,9 @@ theme = 'hello-friend-ng'
   
   [[params.projects]]
     name = "observable"
-    desc = "A visual server profiler for Minecraft 1.16 - 1.18"
+    desc = "A visual server profiler for Minecraft 1.16+"
     image = "observable.png"
-    url = "https://www.curseforge.com/minecraft/mc-mods/observable"
+    url = "https://o.tas.sh/"
   
   [[params.projects]]
     name = "bevy_iced"
