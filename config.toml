@@ -23,7 +23,7 @@ theme = 'hello-friend-ng'
 
   [[params.social]]
     name = "email"
-    url  = "mailto:tasgon_@outlook.com"
+    url  = "mailto:me@tas.sh"
   
   
   [[params.projects]]
