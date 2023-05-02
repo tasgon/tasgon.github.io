@@ -16,21 +16,29 @@ theme = 'hello-friend-ng'
   [[params.social]]
     name = "github"
     url = "https://github.com/tasgon"
-  
-  [[params.social]]
-    name = "gitlab"
-    url = "https://gitlab.com/tasgon"
 
   [[params.social]]
     name = "email"
     url  = "mailto:me@tas.sh"
   
+  [[params.social]]
+    name = "twitter"
+    url  = "https://twitter.com/tasdotsh"
+  
+  [[params.social]]
+    name = "gitlab"
+    url = "https://gitlab.com/tasgon"
   
   [[params.projects]]
     name = "observable"
     desc = "A visual server profiler for Minecraft 1.16+"
     image = "observable.png"
     url = "https://o.tas.sh/"
+  
+  [[params.projects]]
+    name = "ranos"
+    desc = "A game about exploring in the dark (collab)"
+    url = "https://secretpocketcat.itch.io/ranos"
   
   [[params.projects]]
     name = "bevy_iced"
