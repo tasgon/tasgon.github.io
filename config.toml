@@ -22,10 +22,6 @@ theme = 'hello-friend-ng'
     url  = "mailto:me@tas.sh"
   
   [[params.social]]
-    name = "twitter"
-    url  = "https://twitter.com/tasdotsh"
-  
-  [[params.social]]
     name = "gitlab"
     url = "https://gitlab.com/tasgon"
   
